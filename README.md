@@ -8,14 +8,14 @@
 ```
 code .
 ```
-4- cmkae: select variant: Debug to do the deveoopement
-5- use F5 to run and use breakpoints to pause
+4- cmkae: select variant: Debug to do the deveoopement 
+5- use F5 to run and use breakpoints to pause 
 
-## Data Structures:
+## Data Structures: 
 
-2- Vectors: sequence containers, representing arrays that can change in size
- access in O(1)  
- The size can change dynamically  
- vector<int> arr; or vector<int> arr = {1,2,3,4};  
- arr.size();  
-3- 
+2- Vectors: sequence containers, representing arrays that can change in size 
+ access in O(1)   
+ The size can change dynamically   
+ vector<int> arr; or vector<int> arr = {1,2,3,4};   
+ arr.size();   
+3-  

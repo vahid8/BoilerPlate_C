@@ -16,17 +16,21 @@ code .
 Array will be stored in stack automatically
 It has a fix size and you can not touch the size  
 ```
-// Normal c style array (not recommended)
-int dataOld[5];
-dataOld[5]=1;
 // standard Arraya from std (it has all methods such as size(), iterator, sort, ...)
 std:: array<int,5> data;
 data[0] = 2;
 
-
-2- Vectors: sequence containers, representing arrays that can change in size 
+// Normal c style array (not recommended)
+int dataOld[5];
+dataOld[5]=1;
+```
+#### Vectors: sequence containers, representing arrays that can change in size 
  access in O(1)   
- The size can change dynamically   
- vector<int> arr; or vector<int> arr = {1,2,3,4};   
+ The size can change dynamically 
+ ```
+ std::vector<int> arr; or vector<int> arr = {1,2,3,4};   
  arr.size();   
-3-  
+ 
+ ```
+ 
+

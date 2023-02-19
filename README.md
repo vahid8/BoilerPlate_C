@@ -11,7 +11,37 @@ code .
 4- cmkae: select variant: Debug to do the deveoopement 
 5- use F5 to run and use breakpoints to pause 
 
-## Data Structures: 
+### Important keywords
+| Method    | Example | Description  | 
+| ------------- |-------------|-------------|
+| #define | #define print(value){std::cout << value << std::endl;} | define print() for all project |
+| static | static int s_variable = 2; or static void func(){}| * |
+
+*// if you define a variable and function it will be global by default in all your files
+// In the workspace and you can define it only once otherwise u will get a dupplicatation error
+// How ever you can hide this variable or function from other cpp files using
+
+### Define data structure and define what to print out
+```
+struct points{
+    int x,y,z;
+    //constructor
+    points(int x,int y,int z):x(x),y(y),z(z){};
+    //copy constructor
+    points(const points& point):x(point.x),y(point.y),z(point.z)
+    {
+        std::cout<<"Copied!!"<< std::endl;
+    }
+
+};
+//overwrite <<
+std::ostream& operator<<(std::ostream& stream,const points& a){
+    stream<<a.x<<","<<a.y<<","<<a.z;
+    return stream;
+}
+```
+
+### Data Structures: 
 #### Array (static array) 
 Array will be stored in stack automatically
 It has a fix size and you can not touch the size  

@@ -19,7 +19,7 @@ code .
 
 *if you define a variable and function it will be global by default in all your files
  In the workspace and you can define it only once otherwise u will get a dupplicatation error
- How ever you can hide this variable or function from other cpp files using
+ How ever you can hide this variable or function from other cpp files using static keyword
 
 ### Define data structure and define what to print out
 ```

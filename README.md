@@ -17,9 +17,9 @@ code .
 | #define | #define print(value){std::cout << value << std::endl;} | define print() for all project |
 | static | static int s_variable = 2; or static void func(){}| * |
 
-*// if you define a variable and function it will be global by default in all your files
-// In the workspace and you can define it only once otherwise u will get a dupplicatation error
-// How ever you can hide this variable or function from other cpp files using
+*if you define a variable and function it will be global by default in all your files
+ In the workspace and you can define it only once otherwise u will get a dupplicatation error
+ How ever you can hide this variable or function from other cpp files using
 
 ### Define data structure and define what to print out
 ```

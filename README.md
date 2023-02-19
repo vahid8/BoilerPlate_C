@@ -18,19 +18,42 @@ It has a fix size and you can not touch the size
 ```
 // standard Arraya from std (it has all methods such as size(), iterator, sort, ...)
 std:: array<int,5> data;
-data[0] = 2;
-
+data[0] = 2; access data;
+Different methods of iterating over the  array or vector
+```
 // Normal c style array (not recommended)
 int dataOld[5];
 dataOld[5]=1;
-```
+
 #### Vectors: sequence containers, representing arrays that can change in size 
+Vectors are stored in Heap memory
  access in O(1)   
  The size can change dynamically 
  ```
- std::vector<int> arr; or vector<int> arr = {1,2,3,4};   
- arr.size();   
- 
+ std::vector<int> arr; or vector<int> arr = {1,2,3,4};
  ```
  
+###### STL methods for arrays and vectors:
+1. Iterating
+```
+ for(int i=0;i<data.size();i++) {
+    std::cout<<data[i]<<std::endl;
+ }
+ //Old way of printing -> using iterator
+    for (std::vector<points>::iterator it = P.begin() ; it != P.end(); ++it)
+        std::cout<<*it<<std::endl;
+ //or    
+   for (auto it = P.begin() ; it != P.end(); ++it)
+        std::cout<<*it<<std::endl;
+ // newest method
+print("thirdt method of iterating and printing");
+for (const points& i : P)
+    std::cout<<i<<std::endl;
+```
+| Method      | Description         |
+| ------------- |:-------------:|
+| Data.clear() | clear the memmory but vector adrees is still there |
+| Data.sort() | sort the vector |
+| Data.size() | size of the vector |
+
 

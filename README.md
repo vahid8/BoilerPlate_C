@@ -16,12 +16,17 @@ code .
 | ------------- |-------------|-------------|
 | #define | #define print(value){std::cout << value << std::endl;} | define print() for all project |
 | static | static int s_variable = 2; or static void func(){}| * |
+| struct | a type of class that is public | if you use static for defining vars , they are not members of struct anymore |
+
 
 *if you define a variable and function it will be global by default in all your files
  In the workspace and you can define it only once otherwise u will get a dupplicatation error
  How ever you can hide this variable or function from other cpp files using static keyword
 
-### Define data structure and define what to print out
+** Use definitions and structs in Header files
+
+### Struct
+pulic class
 ```
 struct points{
     int x,y,z;
@@ -38,6 +43,23 @@ struct points{
 std::ostream& operator<<(std::ostream& stream,const points& a){
     stream<<a.x<<","<<a.y<<","<<a.z;
     return stream;
+}
+
+struct Entity{
+int x, y;
+void print(){ std::cout << x<< ","<< y <<std::endl;}
+};
+// you can define variables after that as well
+int Entity::z;
+//or with initilizing the value
+int Entity::z=2; 
+// Use classes
+int main(){
+Entity e1;
+e1.x = 4;
+e1.y=5;
+e1.z=7;
+e1.print();
 }
 ```
 

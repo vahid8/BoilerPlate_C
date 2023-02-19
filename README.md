@@ -4,7 +4,7 @@
 (https://code.visualstudio.com/docs/cpp/cmake-linux)  
 1- Make sure CMAke and a compiler is installed (gcc or g++)  
 2- install c++ and CMAKE tool extension  
-3- inside the folder containing main.cpp open Terminal 
+3- inside the folder containing main.cpp open Terminal and type the following (it will open vscode with the current folder)
 ```
 code .
 ```

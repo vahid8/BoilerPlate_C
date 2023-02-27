@@ -11,6 +11,18 @@ code .
 4- cmkae: select variant: Debug to do the deveoopement 
 5- use F5 to run and use breakpoints to pause 
 
+### Size of variables
+| Type      | size in (Bytes (8 bit) |         |
+| ------------- |:-------------:|
+| sizeof(char) | 1 |
+| sizeof(short) | 2 |
+| sizeof(int) | 4 |
+| sizeof(double) | 8 |
+| sizeof(unsigned int) | 4 |
+| sizeof(bool) | 1 |
+| sizeof(float) | 4 |
+
+
 ### Important keywords
 | Method    | Example | Description  | 
 | ------------- |-------------|-------------|

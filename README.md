@@ -67,8 +67,8 @@ e1.print();
 #### Array (static array) 
 Array will be stored in stack automatically
 It has a fix size and you can not touch the size  
-```
 // standard Arrays from std (it has all methods such as size(), iterator, sort, ...)
+```
 std:: array<int,5> data;
 data[0] = 2; access data;
 Different methods of iterating over the  array or vector

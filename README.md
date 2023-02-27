@@ -68,14 +68,16 @@ e1.print();
 Array will be stored in stack automatically
 It has a fix size and you can not touch the size  
 ```
-// standard Arraya from std (it has all methods such as size(), iterator, sort, ...)
+// standard Arrays from std (it has all methods such as size(), iterator, sort, ...)
 std:: array<int,5> data;
 data[0] = 2; access data;
 Different methods of iterating over the  array or vector
 ```
-// Normal c style array (not recommended)
+// Normal c style array (not recommended)  
+```
 int dataOld[5];
 dataOld[5]=1;
+```
 
 #### Vectors: sequence containers, representing arrays that can change in size 
 Vectors are stored in Heap memory

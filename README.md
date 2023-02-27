@@ -1,4 +1,4 @@
-# BoilerPlate_C-
+# BoilerPlate_C-plus-plus
 
 ## VSCODE LINUX  
 (https://code.visualstudio.com/docs/cpp/cmake-linux)  

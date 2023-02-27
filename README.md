@@ -12,7 +12,7 @@ code .
 5- use F5 to run and use breakpoints to pause 
 
 ### Size of variables
-| Type      | size in (Bytes (8 bit) |         |
+| Type      | size in (Bytes (8 bit) |
 | ------------- |:-------------:|
 | sizeof(char) | 1 |
 | sizeof(short) | 2 |

@@ -1,8 +1,15 @@
 # BoilerPlate_C-plus-plus
-
+## Running Cmake inside terminal ubuntu
+you need to have the cmake list inside folder   
+```
+mkdir build
+cd build
+cmake ..
+make
+```
 ## VSCODE LINUX  
 (https://code.visualstudio.com/docs/cpp/cmake-linux)  
-1- Make sure CMAke and a compiler is installed (gcc or g++)  
+1- Make sure Cmakee and a compiler is installed (gcc or g++)  
 2- install c++ and CMAKE tool extension  
 3- inside the folder containing main.cpp open Terminal and type the following (it will open vscode with the current folder)
 ```
